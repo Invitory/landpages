@@ -1,0 +1,35 @@
+/* ===================================
+   LAYOUT
+=================================== */
+
+.container{
+
+    width:min(var(--container),calc(100% - 80px));
+
+    margin-inline:auto;
+
+}
+
+section{
+
+    padding:var(--section-padding) 0;
+
+}
+
+.grid{
+
+    display:grid;
+
+}
+
+.flex{
+
+    display:flex;
+
+}
+
+.hidden{
+
+    overflow:hidden;
+
+}
